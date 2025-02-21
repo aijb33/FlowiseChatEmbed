@@ -51,7 +51,6 @@ export const Badge = (props: Props) => {
           {props.footer?.text ?? 'Powered by'}
           <a
             ref={liteBadge}
-            
             target="_blank"
             rel="noopener noreferrer"
             class="lite-badge"
